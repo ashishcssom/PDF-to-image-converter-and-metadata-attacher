@@ -21,6 +21,9 @@ path = os.path.abspath(os.path.join(os.path.dirname(__file__), "."))
 
 # Create output directory
 if not os.path.exists('Output'):os.makedirs('Output')
+    
+# Create dump directory
+if not os.path.exists('Dump'):os.makedirs('Dump')
 
 # Assigning the path
 inputPath_pdf=path.replace("\\","/")+r"/Input/"
