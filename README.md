@@ -43,7 +43,7 @@ Put all the pdf with json data(need to attach as meta data) in Input folder.
 # Author
 Ashish Kumar
 
-For any clarification on code, please feel free to drop an email to **Ashish.Kashyap@csscorp.com**
+For any clarification on code, please feel free to drop an email to **imashish.kumar7@gmail.com**
 
 Made with ❤️ in Ranchi, India
 
