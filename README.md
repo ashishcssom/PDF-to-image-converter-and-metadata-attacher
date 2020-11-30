@@ -49,4 +49,4 @@ Made with ❤️ in Ranchi, India
 
 # License
 
-Copyright © 2020 CSS Corp. All Rights Reserved
+Copyright (c) 2020 Ashish Kumar
