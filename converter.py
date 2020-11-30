@@ -61,7 +61,7 @@ def main(pdf,png):
     if pdf==1:
         """ pdf to png conversion """
         for file in files_pdf:
-            images = convert_from_path(inputPath_pdf+file,poppler_path = r'./poppler/bin') 
+            images = convert_from_path(inputPath_pdf+file,poppler_path = path+r'/poppler/bin') 
             for i,img in enumerate(images): 
                 img.save(outputpath_pdf+os.path.splitext(os.path.basename(file))[0]+f'__{i}.png', 'PNG')
                 metadataAttacher(outputpath_pdf+os.path.splitext(os.path.basename(file))[0]+f'__{i}.png',json.load(open(inputPath_pdf+os.path.splitext(os.path.basename(file))[0]+".json")))  
