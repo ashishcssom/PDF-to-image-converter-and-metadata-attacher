@@ -1,0 +1,2 @@
+pdf2image==1.14.0 # A wrapper around the pdftoppm and pdftocairo command line tools to convert PDF to a PIL Image list.
+comtypes==1.1.7 # Pure Python COM package
